@@ -16,11 +16,11 @@
         $hosting = getenv('MYSQL_HOST'); 
         $usernamesql = getenv('MYSQL_USER');
         $passwordsql = getenv('MYSQL_PASSWORD');
-        $database = getenv('MYSQL_DATABASE');
+        $datacbase = getenv('MYSQL_DATABASE');
 
 
         // En esta parte se esta intentando realizar la conexion a la bd
-        $connetao = new mysqli($hosting, $usernamesql, $passwordsql, $database);
+        $connetao = new mysqli($hosting, $usernamesql, $passwordsql, $datacbase);
 
         if ($connetao->connect_error) {
         die("Hubo un error de conexión: " . $conne->connect_error);
