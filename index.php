@@ -26,7 +26,7 @@
         die("Hubo un error de conexión: " . $conne->connect_error);
         }
 
-        echo "La conexion fue realizada con exito";
+        echo "Pon >>>>Conexion exitosa<<<< en tu echo";
 ?>
 
 </body>
